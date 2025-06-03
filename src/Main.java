@@ -9,14 +9,14 @@ public class Main {
 
         RodinnyDom ficovaVila = new RodinnyDom();
         ficovaVila.pocetPoschodi = 5;
-        ficovaVila.rozloha = 600f;
+        ficovaVila.rozloha = 80f;
         ficovaVila.material = "tehla";
         ficovaVila.pocetOken = 250;
         ficovaVila.vypocetCenyDomu();
 
         RodinnyDom kalinakovDom = new RodinnyDom();
         kalinakovDom.pocetPoschodi = 6;
-        kalinakovDom.rozloha = 728f;
+        kalinakovDom.rozloha = 92f;
         kalinakovDom.material = "tehla";
         kalinakovDom.pocetOken = 322;
         kalinakovDom.vypocetCenyDomu();
