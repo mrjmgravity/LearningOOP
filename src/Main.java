@@ -12,6 +12,7 @@ public class Main {
         ficovaVila.rozloha = 600f;
         ficovaVila.material = "tehla";
         ficovaVila.pocetOken = 250;
+        ficovaVila.vypocetCenyDomu();
 
         RodinnyDom kalinakovDom = new RodinnyDom();
         kalinakovDom.pocetPoschodi = 6;
