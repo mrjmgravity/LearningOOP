@@ -19,6 +19,7 @@ public class Main {
         kalinakovDom.rozloha = 728f;
         kalinakovDom.material = "tehla";
         kalinakovDom.pocetOken = 322;
+        kalinakovDom.vypocetCenyDomu();
 
 
     }
