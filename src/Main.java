@@ -1,8 +1,8 @@
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {
+
+       /*
 
         Random generator = new Random();
         generator.nextInt();
@@ -26,6 +26,14 @@ public class Main {
 
         Macka felix = new Macka(4,"Perzska",8,5);
         felix.spravZvuk();
+
+        */
+
+        // Miesto pre banku
+
+
+
+
 
     }
 }
