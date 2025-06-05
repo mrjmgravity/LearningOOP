@@ -18,6 +18,8 @@ public class Main {
 
         System.out.println("Cena obidvoch domov dokopy je: " + (cenaPrvehoDomu + cenaDruhehoDomu));
 
+        Obchod kaufland = new Obchod(2600f,2,5);
+        kaufland.vypocetCenyObchodu();
 
     }
 }

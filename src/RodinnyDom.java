@@ -60,6 +60,7 @@ public class RodinnyDom {
      * @param menoDomu názov domu
      * @return výsledná cena
      */
+
     public float vypocetCenyDomu(int cenaZaMeter, String menoDomu) {
         float cena = rozloha * cenaZaMeter * pocetPoschodi;
         System.out.println(menoDomu + ": " + cena + " €");

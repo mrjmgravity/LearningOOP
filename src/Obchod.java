@@ -15,10 +15,8 @@ public class Obchod {
     public float vypocetCenyObchodu() {
 
         float cena = (rozloha * pocetPoschodi) + 100 * pocetPokladni;
-        System.out.println("Cena obchodu" + cena);
-
+        System.out.println("Cena obchodu " + cena);
         return cena;
-
     }
 
 }
