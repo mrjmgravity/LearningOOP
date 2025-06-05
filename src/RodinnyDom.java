@@ -1,7 +1,26 @@
 public class RodinnyDom {
 
+    // ==== Atribúty ====
     private int pocetPoschodi;
     private String material;
+    private float rozloha;
+    private int pocetOken;
+
+    // ==== Konštruktor ====
+    public RodinnyDom(int pocetPoschodi, String material, float rozloha) {
+        this.pocetPoschodi = pocetPoschodi;
+        this.material = material;
+        this.rozloha = rozloha;
+    }
+
+    // ==== Getre a setre ====
+    public int getPocetPoschodi() {
+        return pocetPoschodi;
+    }
+
+    public void setPocetPoschodi(int pocetPoschodi) {
+        this.pocetPoschodi = pocetPoschodi;
+    }
 
     public String getMaterial() {
         return material;
@@ -11,12 +30,8 @@ public class RodinnyDom {
         this.material = material;
     }
 
-    public int getPocetPoschodi() {
-        return pocetPoschodi;
-    }
-
-    public void setPocetPoschodi(int pocetPoschodi) {
-        this.pocetPoschodi = pocetPoschodi;
+    public float getRozloha() {
+        return rozloha;
     }
 
     public void setRozloha(float rozloha) {
@@ -31,30 +46,23 @@ public class RodinnyDom {
         this.pocetOken = pocetOken;
     }
 
-    private float rozloha;
-    private int pocetOken;
-
+    // ==== Ostatné metódy ====
+    /**
+     * Zmení rozlohu domu.
+     */
     public void zmenaRozlohy(float novaRozloha) {
-        rozloha = novaRozloha;
+        this.rozloha = novaRozloha;
     }
 
-    public float getRozloha() {
-        return rozloha;
-    }
-
-    RodinnyDom(int pocetPoschodi, String material, float rozloha) {
-        this.pocetPoschodi = pocetPoschodi;
-        this.material = material;
-        this.rozloha = rozloha;
-    }
-
+    /**
+     * Vypočíta cenu domu na základe rozlohy, počtu poschodí a ceny za meter.
+     * @param cenaZaMeter cena za 1m²
+     * @param menoDomu názov domu
+     * @return výsledná cena
+     */
     public float vypocetCenyDomu(int cenaZaMeter, String menoDomu) {
-
         float cena = rozloha * cenaZaMeter * pocetPoschodi;
-        System.out.println(menoDomu + cena);
-
+        System.out.println(menoDomu + ": " + cena + " €");
         return cena;
     }
-
-
 }
