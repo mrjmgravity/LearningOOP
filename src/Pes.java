@@ -1,9 +1,5 @@
-public class Pes {
+public class Pes extends Zviera {
 
-    private int pocetNoh;
-    private String rasa;
-    private float hmotnost;
-    private int pocetUlovenychMaciek;
 
     Pes(int pocetNoh, String rasa, float hmotnost, int pocetUlovenychMaciek){
 

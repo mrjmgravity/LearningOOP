@@ -22,6 +22,10 @@ public class Main {
         kaufland.vypocetCenyObchodu();
 
         Pes deny = new Pes(4,"shi tsu",15,5);
+        deny.spravZvuk();
+
+        Macka felix = new Macka(4,"Perzska",8,5);
+        felix.spravZvuk();
 
     }
 }
