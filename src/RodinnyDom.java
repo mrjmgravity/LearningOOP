@@ -1,9 +1,8 @@
-public class RodinnyDom {
+public class RodinnyDom extends Stavba {
 
     // ==== Atribúty ====
-    private int pocetPoschodi;
+
     private String material;
-    private float rozloha;
     private int pocetOken;
 
     // ==== Konštruktor ====
@@ -61,9 +60,4 @@ public class RodinnyDom {
      * @return výsledná cena
      */
 
-    public float vypocetCenyDomu(int cenaZaMeter, String menoDomu) {
-        float cena = rozloha * cenaZaMeter * pocetPoschodi;
-        System.out.println(menoDomu + ": " + cena + " €");
-        return cena;
-    }
 }

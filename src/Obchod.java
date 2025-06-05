@@ -1,7 +1,6 @@
-public class Obchod {
+public class Obchod extends Stavba {
 
-    private float rozloha;
-    private int pocetPoschodi;
+
     private int pocetPokladni;
 
 

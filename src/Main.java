@@ -21,5 +21,7 @@ public class Main {
         Obchod kaufland = new Obchod(2600f,2,5);
         kaufland.vypocetCenyObchodu();
 
+        Pes deny = new Pes(4,"shi tsu",15,5);
+
     }
 }
