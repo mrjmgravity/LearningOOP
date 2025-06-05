@@ -8,7 +8,7 @@ public class Zviera {
 
     public void spravZvuk(){
 
-        System.out.println("Mnau");
+        System.out.println("Haf");
 
     }
 

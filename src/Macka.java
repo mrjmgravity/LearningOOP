@@ -11,4 +11,10 @@ public class Macka extends Zviera {
 
     }
 
+    public void spravZvuk(){
+
+        System.out.println("Mnau");
+
+    }
+
 }
